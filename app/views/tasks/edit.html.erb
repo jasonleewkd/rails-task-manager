@@ -1,0 +1,14 @@
+<h1>Edit this task</h1>
+
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :details %>
+  <%= f.text_field :details %>
+  <%= f.submit %>
+<% end %>
+
+<!-- Stopped at editing task -->
+<!-- should i be creating a edit.html.erb? -->
+<!-- where to generate the form_for? -->
+<!-- how to edit tasks? -->
